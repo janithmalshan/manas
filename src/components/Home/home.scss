@@ -1,0 +1,22 @@
+.ui-home {
+  display: flex;
+  background-color: #f1f1f1;
+  flex: 1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr;
+  gap: 0;
+  grid-template-areas: "g-toolbar g-propertybar g-propertybar" "g-toolbar g-window g-options";
+  flex: 1;
+}
+
+.toolbar { grid-area: g-toolbar; }
+
+.propertybar { grid-area: g-propertybar; }
+
+.options { grid-area: g-options; }
+
+.window { grid-area: g-window; }
