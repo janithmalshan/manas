@@ -2,6 +2,7 @@
   display: flex;
   background-color: #f1f1f1;
   flex: 1;
+  overflow: auto;
 }
 
 .grid-container {
@@ -13,10 +14,19 @@
   flex: 1;
 }
 
-.toolbar { grid-area: g-toolbar; }
+.toolbar {
+  grid-area: g-toolbar;
+}
 
-.propertybar { grid-area: g-propertybar; }
+.propertybar {
+  grid-area: g-propertybar;
+}
 
-.options { grid-area: g-options; }
+.options {
+  grid-area: g-options;
+}
 
-.window { grid-area: g-window; }
+.window {
+  grid-area: g-window;
+  overflow: auto;
+}
