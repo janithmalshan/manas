@@ -1,6 +1,7 @@
+@import "../../styles/style";
 .ui-home {
   display: flex;
-  background-color: #f1f1f1;
+  background-color: $bg-secondary;
   flex: 1;
   overflow: auto;
 }
@@ -35,4 +36,6 @@
   grid-area: g-window;
   overflow: auto;
   z-index: 0;
+  padding: 56px;
+  box-sizing: border-box;
 }
