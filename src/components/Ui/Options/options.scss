@@ -1,5 +1,6 @@
+@import "../../../styles/style";
 .ui-option {
-  width: 300px;
+  width: $options;
   height: 100%;
-  background-color: chocolate;
+  background-color: $bg-primary;
 }

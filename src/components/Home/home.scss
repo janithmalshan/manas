@@ -16,17 +16,23 @@
 
 .toolbar {
   grid-area: g-toolbar;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  z-index: 2;
 }
 
 .propertybar {
   grid-area: g-propertybar;
+  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .options {
   grid-area: g-options;
 }
 
+
 .window {
   grid-area: g-window;
   overflow: auto;
+  z-index: 0;
 }

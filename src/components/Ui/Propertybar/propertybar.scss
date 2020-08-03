@@ -1,5 +1,6 @@
+@import "../../../styles/style";
 .ui-propertybar {
   width: 100%;
-  min-height: 90px;
-  background-color: cadetblue;
+  min-height: $propertybar;
+  background-color: $bg-primary;
 }

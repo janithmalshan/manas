@@ -50,7 +50,7 @@ export default function MenuAppBar() {
                 />
             </FormGroup>
             <AppBar position="static">
-                <Toolbar>
+                <Toolbar variant="dense">
                     <Typography variant="h6" className={classes.title}>
                         Photos
                     </Typography>

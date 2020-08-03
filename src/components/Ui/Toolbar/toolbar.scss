@@ -1,5 +1,8 @@
+@import "../../../styles/style";
 .ui-toolbar {
-  width: 100px;
+  width: $toolbar;
   height: 100%;
-  background-color: blueviolet;
+  background-color: $bg-primary;
+
+
 }

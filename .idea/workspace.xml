@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aac82ff4-9796-4212-8aed-5d5d8c119589" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Ui/Navbar/navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Navbar/navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Navbar/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Navbar/navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Options/options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Options/options.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Propertybar/propertybar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Propertybar/propertybar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Toolbar/toolbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Toolbar/toolbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Ui/Window/window.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Window/window.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_variable.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +44,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Ui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\MAL\Projects\fiverr\anime-d\src" />
       <recent name="M:\MAL\Projects\fiverr\anime-d\src\components\Ui" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -58,6 +78,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.eject" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +105,9 @@
       <option name="presentableId" value="Default" />
       <updated>1596307285709</updated>
       <workItem from="1596307286905" duration="11129000" />
-      <workItem from="1596395374430" duration="2315000" />
+      <workItem from="1596395374430" duration="11085000" />
+      <workItem from="1596455651930" duration="2426000" />
+      <workItem from="1596458197523" duration="501000" />
     </task>
     <servers />
   </component>
@@ -100,25 +123,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596310305643" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1596396343531">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1596458178478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596386508895" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596396343531" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1596396343531">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596458178478" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1596458178478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596386508894" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596396343531" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1596396343531">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596458178478" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1596458178478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596386508891" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596396343531" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1596396343531">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596458178478" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1596458178478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596386508895" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596396343531" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596458178478" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1596454154637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596454154637" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596454131729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596454131729" />
   </component>
 </project>
