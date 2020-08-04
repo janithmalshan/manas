@@ -2,22 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aac82ff4-9796-4212-8aed-5d5d8c119589" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-04.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-05.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-06.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-07.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-08.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-09.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/AnimeD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ic-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ic-expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-align-b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-align-c.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-align-h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-align-m.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-align-r.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-align-t.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ic-align-v.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/ic-tool-02.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-02.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/ic-tool-04.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-04.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/ic-tool-05.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-05.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/ic-tool-06.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/ic-tool-06.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Navbar/navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Navbar/navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Navbar/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Navbar/navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Options/options.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Options/options.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Options/options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Options/options.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Propertybar/propertybar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Propertybar/propertybar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/Propertybar/propertybar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Propertybar/propertybar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Ui/Toolbar/toolbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Toolbar/toolbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Ui/Toolbar/toolbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Toolbar/toolbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/Window/window.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Window/window.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/Window/window.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Window/window.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/overrideMui/ThemeOverride.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/overrideMui/ThemeOverride.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,18 +55,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="M:\MAL\Projects\fiverr\anime-d\src\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\MAL\Projects\fiverr\anime-d\src\assets" />
       <recent name="M:\MAL\Projects\fiverr\anime-d\src\assets\icons" />
       <recent name="M:\MAL\Projects\fiverr\anime-d\src" />
       <recent name="M:\MAL\Projects\fiverr\anime-d\src\components\Ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\MAL\Projects\fiverr\anime-d\src\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -115,7 +124,8 @@
       <workItem from="1596395374430" duration="11085000" />
       <workItem from="1596455651930" duration="2426000" />
       <workItem from="1596458197523" duration="2655000" />
-      <workItem from="1596473155009" duration="11180000" />
+      <workItem from="1596473155009" duration="16783000" />
+      <workItem from="1596536098764" duration="17758000" />
     </task>
     <servers />
   </component>
@@ -136,26 +146,26 @@
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596310305643" />
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596461775042" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1596461776185">
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom" timestamp="1596573006999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596458720625" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596461776185" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1596461776184">
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596573006999" />
+    <state width="1899" height="297" key="GridCell.Tab.0.center" timestamp="1596573006999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596458720625" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596461776184" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1596461776184">
+    <state width="1899" height="297" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596573006999" />
+    <state width="1899" height="297" key="GridCell.Tab.0.left" timestamp="1596573006996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596458720624" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596461776184" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1596461776184">
+    <state width="1899" height="297" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596573006996" />
+    <state width="1899" height="297" key="GridCell.Tab.0.right" timestamp="1596573006999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1596458720625" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596461776184" />
+    <state width="1899" height="297" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596573006999" />
     <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1596454154637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

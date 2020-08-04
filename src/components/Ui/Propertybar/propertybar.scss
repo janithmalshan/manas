@@ -3,4 +3,93 @@
   width: 100%;
   min-height: $propertybar;
   background-color: $bg-primary;
+  display: flex;
+  align-items: center;
+
+  &__item {
+    width: 55px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 -2px;
+    display: inline-block;
+    vertical-align: middle;
+
+    &:hover {
+      background-color: rgb(71, 71, 71);
+    }
+
+    &-icon {
+      height: 17px;
+      margin: 10px 0;
+    }
+  }
+
+  &-1 {
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+
+    > img {
+      height: 21px;
+      margin-right: 20px;
+    }
+  }
+
+  &-2 {
+    .ui-propertybar__item-icon {
+      height: 28px;
+      margin: 6px 0;
+    }
+  }
+
+  .separator {
+    display: inline;
+    width: 1px;
+    height: 42px;
+    background-color: rgb(66, 64, 64);
+    margin: 0 15px;
+  }
+
+  .MuiSelect-root {
+  }
+
+  .MuiSelect-select {
+    //background-color: gray;
+  }
+
+  .MuiSelect-outlined {
+    padding-right: 3px;
+    color: #ffffff;
+    text-align: right;
+    height: 40px;
+    width: auto;
+    min-width: 62px;
+    box-sizing: border-box;
+  }
+
+  .MuiSelect-outlined.MuiSelect-outlined {
+    padding: 10px 0 10px 10px;
+    text-align: left;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #8c95a8;
+
+    &:hover {
+      border-color: #2a2fff;
+    }
+  }
+
+  .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: $secondary;
+  }
+
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #8c95a8;
+  }
+
+  .MuiSelect-icon {
+    color: #FFFFFF;
+  }
 }

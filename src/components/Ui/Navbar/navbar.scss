@@ -1,1 +1,27 @@
 @import "../../../styles/style";
+.ui-navbar {
+  //background-color: #8c95a8;
+
+  &__user {
+    display: flex;
+    align-items: center;
+
+    &-img {
+      border-radius: 30px;
+      width: 60px;
+      height: 60px;
+    }
+
+    &-name {
+      font-size: 22px;
+      color: rgb(255, 255, 255);
+      line-height: 1.636;
+      text-align: left;
+      padding-left: 20px;
+    }
+
+    &-btn {
+      margin: 3px 0 2px;
+    }
+  }
+}

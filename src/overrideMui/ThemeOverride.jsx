@@ -122,6 +122,18 @@ const ThemeDefault = createMuiTheme({
                 justifyContent: 'center'
             }
         },
+        MuiTooltip: {
+            tooltip: {
+                color: 'rgb(14, 14, 14)',
+                fontSize: 20,
+                lineHeight: 1.2,
+                backgroundColor: 'rgb(205, 205, 205)',
+                borderRadius: 5
+             },
+            popper: {
+                marginLeft: -50
+            }
+        },
         MuiFab: {
             root: {
                 boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.17)'
