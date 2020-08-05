@@ -4,6 +4,7 @@ import Toolbar from "../Ui/Toolbar/toolbar";
 import Propertybar from "../Ui/Propertybar/propertybar";
 import Window from "../Ui/Window/window";
 import Options from "../Ui/Options/options";
+import Frame from "../Ui/Frame/frame";
 
 export class Home extends Component {
     // constructor(props) {
@@ -28,6 +29,9 @@ export class Home extends Component {
                     </div>
                     <div className="window">
                         <Window/>
+                    </div>
+                    <div className="frame">
+                        <Frame/>
                     </div>
                 </div>
             </div>

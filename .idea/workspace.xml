@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aac82ff4-9796-4212-8aed-5d5d8c119589" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/ic-panel-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ic-key-frame.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Ui/Frame/frame.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Ui/Frame/frame.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/Options/options.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Options/options.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/Options/options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Options/options.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Ui/Window/window.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Window/window.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +37,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Ui" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\MAL\Projects\fiverr\anime-d\src\components\Ui" />
       <recent name="M:\MAL\Projects\fiverr\anime-d\src\assets" />
       <recent name="M:\MAL\Projects\fiverr\anime-d\src\assets\icons" />
       <recent name="M:\MAL\Projects\fiverr\anime-d\src" />
-      <recent name="M:\MAL\Projects\fiverr\anime-d\src\components\Ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="M:\MAL\Projects\fiverr\anime-d\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -120,7 +118,7 @@
       <workItem from="1596455651930" duration="2426000" />
       <workItem from="1596458197523" duration="2655000" />
       <workItem from="1596473155009" duration="16783000" />
-      <workItem from="1596536098764" duration="30888000" />
+      <workItem from="1596536098764" duration="35045000" />
     </task>
     <servers />
   </component>
