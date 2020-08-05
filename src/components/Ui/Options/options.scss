@@ -4,4 +4,62 @@
   height: 100%;
   background-color: $bg-primary;
   position: relative;
+  padding: 0 36px 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  &__tabs {
+    margin-top: 42px;
+    color: #ffffff;
+    font-size: 30px;
+
+    .MuiTab-root {
+      font-size: 20px;
+      text-transform: capitalize;
+      font-weight: 400;
+    }
+  }
+
+  &__panel {
+    background-color: $bg-secondary;
+    flex-grow: 1;
+    overflow: auto;
+    border-radius: 10px;
+    margin: 24px 0 0 0;
+
+    .MuiPaper-root {
+      background-color: transparent;
+      color: #ffffff;
+    }
+
+    .MuiAccordionSummary-root {
+      padding: 0 20px;
+    }
+
+    .MuiAccordionDetails-root {
+      padding: 8px 20px;
+    }
+
+    .MuiAccordion-root.Mui-expanded {
+      margin: 4px 0 10px;
+    }
+
+    .MuiAccordion-root:before {
+      margin: 0 20px;
+      border-bottom: 1px solid;
+      border-color: rgb(101, 98, 98);
+    }
+
+    &-picker {
+      background-color: $bg-primary;
+      padding: 25px;
+      border-radius: 8px;
+      box-sizing: border-box;
+
+      .chrome-picker {
+        width: 300px!important;
+      }
+    }
+  }
 }
