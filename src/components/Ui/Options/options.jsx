@@ -12,6 +12,14 @@ import MuiAccordion from '@material-ui/core/Accordion';
 import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
 import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
+import { SketchPicker } from 'react-color';
+
+class Component extends React.Component {
+
+    render() {
+        return <SketchPicker />;
+    }
+}
 
 const useStyles = makeStyles((theme) => ({
     root: {

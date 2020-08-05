@@ -31,11 +31,11 @@ export default function Toolbar() {
 const ToolItem = (props) => {
     return (
         <Tooltip title={props.toolhint} placement="right-end">
-            <div className="ui-toolbar__item">
+            <button className="ui-toolbar__item">
                 <img className="ui-toolbar__item-icon" src={props.toolicon} alt="Prestau"/>
                 {/*<h3 className="ui-why-item__title">{props.txtTitle}</h3>*/}
                 {/*<p className="ui-why-item__desc">{props.toolhint}</p>*/}
-            </div>
+            </button>
         </Tooltip>
     )
 };

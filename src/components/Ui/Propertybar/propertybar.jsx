@@ -71,8 +71,8 @@ export default function Propertybar() {
 
 const PropertyItem = (props) => {
     return (
-        <div className="ui-propertybar__item">
+        <button className="ui-propertybar__item">
             <img className="ui-propertybar__item-icon" src={props.propertyicon} alt="Prestau"/>
-        </div>
+        </button>
     )
 };

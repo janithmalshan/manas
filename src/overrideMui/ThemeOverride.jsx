@@ -94,8 +94,16 @@ const ThemeDefault = createMuiTheme({
         // Style sheet name ⚛️
         MuiButton: {
             // Name of the rule
+            root: {
+                textTransform: "capitalize",
+                height: 65,
+                borderRadius: 10,
+                fontSize: 22,
+                fontWeight: '400'
+            },
             text: {
                 // Some CSS
+                textTransform: "capitalize",
                 color: 'white',
             },
         },
@@ -132,6 +140,11 @@ const ThemeDefault = createMuiTheme({
              },
             popper: {
                 marginLeft: -50
+            }
+        },
+        MuiDialog: {
+            paper: {
+                borderRadius: 20
             }
         },
         MuiFab: {
