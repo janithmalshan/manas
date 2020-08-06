@@ -4,20 +4,20 @@
   height: 100%;
   background-color: $bg-primary;
   position: relative;
-  padding: 0 36px 20px;
+  padding: 0 30px 16px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 
   &__tabs {
-    margin-top: 42px;
+    margin-top: 40px;
     color: #ffffff;
-    font-size: 24px;
 
     .MuiTab-root {
-      font-size: 18px;
+      font-size: 16px;
       text-transform: capitalize;
       font-weight: 400;
+      min-width: 100px;
     }
   }
 
@@ -27,6 +27,11 @@
     overflow: auto;
     border-radius: 10px;
     margin: 24px 0 0 0;
+
+    &-text {
+      font-size: 14px;
+      font-weight: 400;
+    }
 
     .MuiPaper-root {
       background-color: transparent;
@@ -53,12 +58,12 @@
 
     &-picker {
       background-color: $bg-primary;
-      padding: 25px;
+      padding: 20px;
       border-radius: 8px;
       box-sizing: border-box;
 
       .chrome-picker {
-        width: 300px!important;
+        //width: 240px!important;
       }
     }
   }

@@ -63,21 +63,21 @@ export default function Options() {
                 <div>
                     <MuiAccordion square expanded={expanded === 'panel1'} onChange={handleChange('panel1')} elevation={0}>
                         <MuiAccordionSummary aria-controls="panel1d-content" id="panel1d-header" expandIcon={<img src={plus}/>}>
-                            <Typography>Fills</Typography>
+                            <label className="ui-option__panel-text">Fills</label>
                         </MuiAccordionSummary>
                         <MuiAccordionDetails>
                         </MuiAccordionDetails>
                     </MuiAccordion>
                     <MuiAccordion square expanded={expanded === 'panel2'} onChange={handleChange('panel2')} elevation={0}>
                         <MuiAccordionSummary aria-controls="panel2d-content" id="panel2d-header" expandIcon={<img src={plus}/>}>
-                            <Typography>Stroke</Typography>
+                            <label className="ui-option__panel-text">Stroke</label>
                         </MuiAccordionSummary>
                         <MuiAccordionDetails>
                         </MuiAccordionDetails>
                     </MuiAccordion>
                     <MuiAccordion square expanded={expanded === 'panel3'} onChange={handleChange('panel3')} elevation={0}>
                         <MuiAccordionSummary aria-controls="panel3d-content" id="panel3d-header" expandIcon={<img src={plus}/>}>
-                            <Typography>Color</Typography>
+                            <label className="ui-option__panel-text">Color</label>
                         </MuiAccordionSummary>
                         <MuiAccordionDetails>
                             <div className="ui-option__panel-picker">
@@ -87,7 +87,7 @@ export default function Options() {
                     </MuiAccordion>
                     <MuiAccordion square expanded={expanded === 'panel4'} onChange={handleChange('panel4')} elevation={0}>
                         <MuiAccordionSummary aria-controls="panel4d-content" id="panel4d-header" expandIcon={<img src={plus}/>}>
-                            <Typography>Opacity</Typography>
+                            <label className="ui-option__panel-text">Opacity</label>
                         </MuiAccordionSummary>
                         <MuiAccordionDetails>
                             <Typography>
@@ -99,7 +99,7 @@ export default function Options() {
                     </MuiAccordion>
                     <MuiAccordion square expanded={expanded === 'panel5'} onChange={handleChange('panel5')} elevation={0}>
                         <MuiAccordionSummary aria-controls="panel5d-content" id="panel5d-header" expandIcon={<img src={plus}/>}>
-                            <Typography>X</Typography>
+                            <label className="ui-option__panel-text">X</label>
                         </MuiAccordionSummary>
                         <MuiAccordionDetails>
                             <Typography>
@@ -111,7 +111,7 @@ export default function Options() {
                     </MuiAccordion>
                     <MuiAccordion square expanded={expanded === 'panel6'} onChange={handleChange('panel6')} elevation={0}>
                         <MuiAccordionSummary aria-controls="panel6d-content" id="panel6d-header" expandIcon={<img src={plus}/>}>
-                            <Typography>Y</Typography>
+                            <label className="ui-option__panel-text">Y</label>
                         </MuiAccordionSummary>
                         <MuiAccordionDetails>
                             <Typography>
