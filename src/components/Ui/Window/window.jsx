@@ -9,8 +9,8 @@ const useStyles = makeStyles((theme) => ({
     root: {
         backgroundColor: '#f0f0f0',
         padding: '14px 0',
-        width: 48,
-        height: 48,
+        width: 42,
+        height: 42,
         boxSizing: 'border-box',
         position: 'absolute',
         top: 24,

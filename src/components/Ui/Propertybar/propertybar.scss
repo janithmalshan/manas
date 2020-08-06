@@ -7,24 +7,26 @@
   align-items: center;
 
   &__item {
-    width: 55px;
-    height: 40px;
+    width: $propertybar-btn-w;
+    height: $propertybar-btn-h;
     border-radius: 10px;
     text-align: center;
     margin: 0 -2px;
-    display: inline-block;
     vertical-align: middle;
     border: none;
     outline: none;
     background: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
     &:hover {
       background-color: rgb(71, 71, 71);
     }
 
     &-icon {
-      height: 17px;
-      margin: 10px 0;
+      height: $propertybar-btn-icon-h;
+
     }
   }
 
@@ -41,8 +43,7 @@
 
   &-2 {
     .ui-propertybar__item-icon {
-      height: 28px;
-      margin: 6px 0;
+      height: $propertybar-btn-icon-h2;
     }
   }
 

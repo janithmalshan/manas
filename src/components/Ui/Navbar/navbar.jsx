@@ -42,7 +42,7 @@ export default function MenuAppBar() {
         <div className="ui-navbar">
             <AppBar position="static">
                 <Toolbar variant="dense" className={classes.toolbar}>
-                    <img src={logo} alt="logo" height={75}/>
+                    <img src={logo} alt="logo" height={60}/>
                         <div>
                             <div className="ui-navbar__user">
                                 <img className="ui-navbar__user-img" src="https://techcrunch.com/wp-content/uploads/2015/09/11667534_10102203860243201_2713296330820668368_n.jpg?w=528"/>

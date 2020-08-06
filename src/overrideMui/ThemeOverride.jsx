@@ -96,9 +96,9 @@ const ThemeDefault = createMuiTheme({
             // Name of the rule
             root: {
                 textTransform: "capitalize",
-                height: 65,
+                height: 52,//65
                 borderRadius: 10,
-                fontSize: 22,
+                fontSize: 18,
                 fontWeight: '400'
             },
             text: {
@@ -133,13 +133,13 @@ const ThemeDefault = createMuiTheme({
         MuiTooltip: {
             tooltip: {
                 color: 'rgb(14, 14, 14)',
-                fontSize: 20,
+                fontSize: 17,
                 lineHeight: 1.2,
                 backgroundColor: 'rgb(205, 205, 205)',
                 borderRadius: 5
              },
             popper: {
-                marginLeft: -50
+                marginLeft: -40
             }
         },
         MuiDialog: {

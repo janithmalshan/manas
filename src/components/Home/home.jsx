@@ -33,7 +33,7 @@ export class Home extends Component {
                     </div>
                     <div className="frame">
                         <Frame/>
-                        <ModalUpload/>
+                        {/*<ModalUpload/>*/}
                     </div>
                 </div>
             </div>

@@ -6,11 +6,19 @@ $secondaryTextColor: #8c95a8;
 $bg-primary: #2a2727;
 $bg-secondary: #454445;
 
-// dimensions
-$appbar: 112px;
-$toolbar: 92px;
-$propertybar: 92px;
-$options: 460px;
+// dimensions | All scale down by 20%
+$appbar: 90px;//112
+$toolbar: 74px;//92
+$propertybar: 74px;//92
+$options: 460px;//460
+$toolbar-btn-w: 52px;//64px
+$toolbar-btn-h: 36px;//45px
+$toolbar-btn-icon-h: 20px;//25px
+$propertybar-btn-w: 44px;//55px
+$propertybar-btn-h: 32px;//40px
+$propertybar-btn-icon-h: 14px;//17px
+$propertybar-btn-icon-h: 14px;//17px
+$propertybar-btn-icon-h2: 23px;//28px
 
 // the :export directive is the magic sauce for webpack
 :export {
