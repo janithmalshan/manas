@@ -13,12 +13,12 @@ import Typography from '@material-ui/core/Typography';
 const styles = (theme) => ({
     root: {
         margin: 0,
-        padding: '40px 60px',
+        padding: '32px 48px',
     },
     closeButton: {
         position: 'absolute',
-        right: 40,
-        top: 30,
+        right: 32,
+        top: 24,
         color: theme.palette.grey[500],
     }
 });
@@ -39,14 +39,14 @@ const DialogTitle = withStyles(styles)((props) => {
 
 const DialogContent = withStyles((theme) => ({
     root: {
-        padding: '0 60px',
+        padding: '0 48px',
     },
 }))(MuiDialogContent);
 
 const DialogActions = withStyles((theme) => ({
     root: {
         margin: 0,
-        padding: '30px 60px 40px',
+        padding: '24px 48px 32px',
     },
 }))(MuiDialogActions);
 
